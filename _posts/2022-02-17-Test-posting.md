@@ -5,19 +5,41 @@ categories:
 tags:
   - scrum
   - agile
+  - backlog
 ---
 
 ### Agile
 
-* Agile Methodology or Manifesto has emerged by 17 people in Snowbird, Utah.
+{% capture fig_img %}
+![Foo]({{ '/assets/images/agileorwaterfall.png' | relative_url }})
+{% endcapture %}
+
+<figure>
+  {{ fig_img | markdownify | remove: "<p>" | remove: "</p>" }}
+  <figcaption>https://codetiburon.com/agile-or-waterfall-choose-the-right-approach-to-your-software-project/</figcaption>
+</figure>
+
+* Agile Methodology or Manifesto has emerged by 17 people in Snowbird, Utah to improve pre-existed software development method which has a lot of time-consuming documentation process.
+
+* Here is the [agile manifesto](https://agilemanifesto.org/principles.html)
+
 
 
 ### Scrum
 
+{% capture fig_img %}
+![Foo]({{ '/assets/images/scrum-sprint.png' | relative_url }})
+{% endcapture %}
+
+<figure>
+  {{ fig_img | markdownify | remove: "<p>" | remove: "</p>" }}
+  <figcaption>https://www.visual-paradigm.com/scrum/what-is-sprint-in-scrum/</figcaption>
+</figure>
+
+
 * Scrum is one of the ways to implement agile.
 
 * iterative philosophy : iterate over the changes and deployments for software developments (Plan - Build - Test - Review)
-
 
 * Product Owner(Manager) who holds the responsibility to make sure that the application is being deployed and build as planned.
 
@@ -26,65 +48,13 @@ tags:
 * Developer, Tester etc(Teammates)
 
 
+* Product Backlog vs Sprint Backlog
+
 {% capture fig_img %}
 ![Foo]({{ '/assets/images/scrum-sprint.png' | relative_url }})
 {% endcapture %}
 
 <figure>
   {{ fig_img | markdownify | remove: "<p>" | remove: "</p>" }}
-  <figcaption>Scrum at a glance</figcaption>
+  <figcaption>https://www.scrumbeginner.com/sprint-backlog/</figcaption>
 </figure>
-
-
-
-### Ordered -- Unordered -- Ordered
-
-1. ordered item
-2. ordered item
-  * **unordered**
-  * **unordered**
-    1. ordered item
-    2. ordered item
-3. ordered item
-4. ordered item
-
-### Ordered -- Unordered -- Unordered
-
-1. ordered item
-2. ordered item
-  * **unordered**
-  * **unordered**
-    * unordered item
-    * unordered item
-3. ordered item
-4. ordered item
-
-### Unordered -- Ordered -- Unordered
-
-* unordered item
-* unordered item
-  1. ordered
-  2. ordered
-    * unordered item
-    * unordered item
-* unordered item
-* unordered item
-
-### Unordered -- Unordered -- Ordered
-
-* unordered item
-* unordered item
-  * unordered
-  * unordered
-    1. **ordered item**
-    2. **ordered item**
-* unordered item
-* unordered item
-
-### Task Lists
-
-- [x] Finish my changes
-- [ ] Push my commits to GitHub
-- [ ] Open a pull request
-  - [ ] Follow discussions
-  - [x] Push new commits
