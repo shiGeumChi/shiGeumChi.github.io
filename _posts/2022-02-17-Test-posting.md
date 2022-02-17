@@ -51,7 +51,7 @@ tags:
 * Product Backlog vs Sprint Backlog
 
 {% capture fig_img %}
-![Foo]({{ '/assets/images/scrum-sprint.png' | relative_url }})
+![Foo]({{ '/assets/images/Product-backlog-to-sprint-backlog.png' | relative_url }})
 {% endcapture %}
 
 <figure>
