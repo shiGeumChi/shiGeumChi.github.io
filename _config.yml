@@ -103,7 +103,7 @@ analytics:
 # Site Author
 author:
   name             : "Dongjin Kim"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/bio-photo.jpg"
   bio              : "I am an **Software Engineer**."
   location         : "South Korea"
   email            :
