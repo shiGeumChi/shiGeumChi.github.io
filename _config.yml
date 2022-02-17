@@ -105,7 +105,7 @@ author:
   name             : "Dongjin Kim"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "I am an **Software Engineer**."
-  location         : "Seongnam, Gyeong-gi, South Korea"
+  location         : "South Korea"
   email            :
   links:
     - label: "Email"
@@ -119,13 +119,16 @@ author:
       # url: "https://twitter.com/"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
-      url: "https://facebook.com/"
+      # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       # url: "https://github.com/"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
+    - label: "Linkedin"
+      icon: "fab fa-fw fa-linkedin-in"
+      url: "https://www.linkedin.com/in/dongjin-kim-389234110/"
 
 # Site Footer
 footer:
@@ -135,7 +138,7 @@ footer:
       # url:
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
-      url: "https://facebook.com/"
+      # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       # url:
@@ -148,6 +151,10 @@ footer:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url:
+    - label: "Linkedin"
+      icon: "fab fa-fw fa-linkedin-in"
+      url: "https://www.linkedin.com/in/dongjin-kim-389234110/"
+
 
 
 # Reading Files
