@@ -1,19 +1,41 @@
 ---
-title: "Test Posting"
+title: "Agile methodology - Scrum"
 categories:
-  - Edge Case
+  - Agile
 tags:
-  - content
-  - css
-  - edge case
-  - lists
-  - markup
+  - scrum
+  - agile
 ---
 
-Nested and mixed lists are an interesting beast. It's a corner case to make sure that
+### Agile
 
-* Lists within lists do not break the ordered list numbering order
-* Your list styles go deep enough.
+* Agile Methodology or Manifesto has emerged by 17 people in Snowbird, Utah.
+
+
+### Scrum
+
+* Scrum is one of the ways to implement agile.
+
+* iterative philosophy : iterate over the changes and deployments for software developments (Plan - Build - Test - Review)
+
+
+* Product Owner(Manager) who holds the responsibility to make sure that the application is being deployed and build as planned.
+
+* Scrum Master(Team Leader) : handles day-to-day operations, running the meetings, handling the tasks
+
+* Developer, Tester etc(Teammates)
+
+
+{% capture fig_img %}
+![Foo]({{ '/assets/images/scrum-sprint.png' | relative_url }})
+{% endcapture %}
+
+<figure>
+  {{ fig_img | markdownify | remove: "<p>" | remove: "</p>" }}
+  <figcaption>Scrum at a glance</figcaption>
+</figure>
+
+
 
 ### Ordered -- Unordered -- Ordered
 
